@@ -26,7 +26,7 @@ for i,n in enumerate(job_titles):
 fig.tight_layout()
 ```
 ### Results
-   ![Visualisation of top skills](Images\skills_demand.png)
+   ![Visualisation of top skills](Images/skills_demand.png)
 
    ### Insights
   - SQL is the most requested skill for Data Analysts and Data Scientists, with it in over half the job postings for both roles. For Data Engineers, Python is the most sought-after skill, appearing in 68% of job postings.
@@ -51,7 +51,7 @@ for i in range(5):
         plt.text(11.5,df_f.iloc[-1,i],df_f.columns[i])
  ```
  ## Results 
-![Trending skills in data analyst](Images\skills_trending.png)
+![Trending skills in data analyst](Images/skills_trending.png)
 
 
    ## Insights: 
@@ -78,7 +78,7 @@ ticks_x=plt.FuncFormatter(lambda y,pos: f'${int(y/1000)}K')
 plt.gca().xaxis.set_major_formatter(ticks_x)
 ```
 ### Results :
-  ![salary_comparision](Images\salary_comparision.png)
+  ![salary_comparision](Images/salary_comparision.png)
 
   ### Insights: 
 - There's a significant variation in salary ranges across different job titles. Senior Data Scientist positions tend to have the highest salary potential, with up to $600K, indicating the high value placed on advanced data skills and experience in the industry.
@@ -112,7 +112,7 @@ ax[1].set_xlim(0,200000)
 fig.tight_layout()
 ``` 
 ### Results
-![Paying and demanding skills](Images\paying_demanding.png)
+![Paying and demanding skills](Images/paying_demanding.png)
 
 ## 5.What are the most optimal skills to learn for Data Analysts?
 
@@ -136,7 +136,7 @@ plt.tight_layout()
 ```
 ### Results: 
 
-![countvsmedian](Images\countvsmedian.png)
+![countvsmedian](Images/countvsmedian.png)
 
 ### Insights:
 
@@ -168,7 +168,7 @@ plt.show()
 ```
 
 ### Results :
-![Representation](Images\technology.png)
+![Representation](Images/technology.png)
 
 ### Insights : 
 - The scatter plot shows that most of the programming skills (colored blue) tend to cluster at higher salary levels compared to other categories, indicating that programming expertise might offer greater salary benefits within the data analytics field.
